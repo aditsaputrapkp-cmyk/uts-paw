@@ -1,26 +1,23 @@
 import { Link } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
-import KotakRingkasan from '../components/KotakRingkasan.jsx'
 import mahasiswa from '../../mahasiswa.json'
 
-function Beranda() {
+export default function Beranda() {
     const { items, loading } = useKoleksi()
-    const jumlahKategori = new Set(items.map((i) => i.kategori)).size
+    const jumlahKategori = new Set(items.map((item) => item.kategori)).size
 
     return (
-        <section className="sorotan">
-            <h1>{mahasiswa.tema}</h1>
-            <p className="tema">Tema : Koleksi Tanaman Hias.</p>
+        <section>
+            <h1>Ini adalah "Koleksi Tanaman Hias</h1>
+            <p>Tema: {mahasiswa.tema}</p>
             {loading ? (
                 <p>Memuat ringkasan...</p>
-            ) : (
-                <KotakRingkasan jumlah={items.length} kategori={jumlahKategori} />
+            ) : (           
+                <p>Ada {items.length} tanaman dalam {jumlahKategori} kategori</p>
             )}
-            <Link className="tombol" to="/koleksi">
-                Lihat koleksi
-            </Link>
+            <p>
+                <Link to="/koleksi">Lihat semua tanaman</Link>
+            </p>
         </section>
     )
 }
-
-export default Beranda

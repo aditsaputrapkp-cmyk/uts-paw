@@ -9,7 +9,7 @@ import Statistik from './pages/Statistik.jsx'
 import Tentang from './pages/Tentang.jsx'
 import TidakDitemukan from './pages/TidakDitemukan.jsx'
 
-function App() {
+export default function App() {
   return (
     <KoleksiProvider>
       <Routes>
@@ -27,4 +27,3 @@ function App() {
   )
 }
 
-export default App

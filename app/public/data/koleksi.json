@@ -1,10 +1,91 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Lidah Buaya",
+    "kategori": "Daun",
+    "namaLatin": "Sansevieria trifasciata",
+    "frekuensiSiram": "1x seminggu",
+    "kebutuhanCahaya": "teduh"
+  },
+
+  {
+    "id": "2",
+    "judul": "Anggrek Bulan",
+    "kategori": "Bunga",
+    "namaLatin": "Phalaenopsis amabilis",
+    "frekuensiSiram": "2x seminggu",
+    "kebutuhanCahaya": "sedang"
+  },
+
+  {
+    "id": "3",
+    "judul": "Kaktus Mini",
+    "kategori": "Sukulen",
+    "namaLatin": "Mammillaria elongata",
+    "frekuensiSiram": "1x dua minggu",
+    "kebutuhanCahaya": "penuh"
+  },
+
+  {
+    "id": "4",
+    "judul": "Mawar Batu",
+    "kategori": "Sukulen",
+    "namaLatin": "Echeveria elagans",
+    "frekuensiSiram": "1x seminggu",
+    "kebutuhanCahaya": "penuh"
+  },
+
+  {
+    "id": "5",
+    "judul": "Sri Rejeki",
+    "kategori": "Daun",
+    "namaLatin": "Aglaonema commutatum",
+    "frekuensiSiram": "2x seminggu",
+    "kebutuhanCahaya": "teduh"
+  },
+
+  {
+    "id": "6",
+    "judul": "Janda Bolong",
+    "kategori": "Daun",
+    "namaLatin": "Monstera adansonii",
+    "frekuensiSiram": "2x seminggu",
+    "kebutuhanCahaya": "teduh"
+  },
+
+  {
+    "id": "7",
+    "judul": "Pakis Boston",
+    "kategori": "Gantung",
+    "namaLatin": "Nephrolepis exaltatas",
+    "frekuensiSiram": "3x seminggu",
+    "kebutuhanCahaya": "teduh"
+  },
+
+  {
+    "id": "8",
+    "judul": "Kuping Gajah",
+    "kategori": "Daun",
+    "namaLatin": "Anthurium crystallinum",
+    "frekuensiSiram": "3x seminggu",
+    "kebutuhanCahaya": "sedang"
+  },
+
+  {
+    "id": "9",
+    "judul": "Kembang Sepatu",
+    "kategori": "Bunga",
+    "namaLatin": "Hibiscus rosa-sinensis",
+    "frekuensiSiram": "3x seminggu",
+    "kebutuhanCahaya": "teduh"
+  },
+
+  {
+    "id": "10",
+    "judul": "Untaian Mutiara",
+    "kategori": "Gantung",
+    "namaLatin": "Senecio rowleyanus",
+    "frekuensiSiram": "1x seminggu",
+    "kebutuhanCahaya": "penuh"
   }
 ]

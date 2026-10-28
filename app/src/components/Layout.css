@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* kerangka halaman: header, isi, footer */
+.kerangka {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.kepala {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.kepala-isi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+}
+
+.merek {
+    margin: 0;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu a.active {
+    font-weight: bold;
+}
+
+.konten {
+    flex: 1;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.kaki {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #dcdcdc;
+    text-align: center;
+}
+
+.kaki p {
+    margin: 0;
+}
+
+/* daftar kartu 3 kolom */
+.daftar-kartu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.kartu {
+    padding: 1rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+}
+
+.kartu h3 {
+    margin: 0 0 0.25rem;
+}
+
+/* cari dan filter */
+.alat {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* layar kecil */
+@media (max-width: 768px) {
+    .kepala-isi {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .daftar-kartu {
+        grid-template-columns: 1fr;
+    }
+}

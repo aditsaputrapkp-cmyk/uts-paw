@@ -12,7 +12,7 @@ export default function Statistik() {
         <section>
             <h1>Statistik</h1>
             <div className="tabel-gulir">
-                <table className="tabel-data">
+                  <table className="tabel-data">
                     <thead>
                         <tr>
                             <th>Kategori</th>

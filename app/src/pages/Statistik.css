@@ -17,7 +17,7 @@
 
 .tabel-data thead th {
     background: #f1f1f1;
-}
+} 
 
 .tabel-data tbody tr:nth-child(even) {
     background: #fafafa;

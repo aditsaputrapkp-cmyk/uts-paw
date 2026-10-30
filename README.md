@@ -9,7 +9,7 @@
 | **NIM** | 124140078 |
 | **Kelas** | RA |
 | **Tema** | Koleksi Tanaman Hias |
-| **Deployment** | [aditsaputrapkp-cmyk/uts-paw](https://github.com/aditsaputrapkp-cmyk/uts-paw) |
+| **Deployment** | https://aditsaputrapkp-cmyk.github.io/uts-paw/ |
 
 ---
 
